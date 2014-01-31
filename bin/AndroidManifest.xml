@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.wheresapp"
+    package="com.mohitsehgal.wheresapp"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,7 +19,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.wheresapp.MainActivity"
+            android:name="com.mohitsehgal.wheresapp.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,18 +28,18 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.wheresapp.ContactsActivity"
+            android:name="com.mohitsehgal.wheresapp.ContactsActivity"
             android:label="@string/title_activity_contacts" >
         </activity>
 
         <service
-            android:name="com.example.wheresapp.MyService"
+            android:name="com.mohitsehgal.wheresapp.MyService"
             android:enabled="true"
             android:exported="true" >
         </service>
 
         <receiver
-            android:name="com.example.wheresapp.BootReceiver"
+            android:name="com.mohitsehgal.wheresapp.BootReceiver"
             android:enabled="true"
             android:exported="true" >
             <intent-filter >
