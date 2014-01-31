@@ -1,0 +1,30 @@
+<LinearLayout 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateStatusFragment" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/statusText"
+    android:inputType="textMultiLine" 
+    android:lines="10" 
+    android:minLines="6" 
+    android:gravity="top|left"
+    android:maxLines="10" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+    android:hint="@string/update_status"
+    android:layout_weight="1"
+    android:scrollbars="vertical" >   
+    <requestFocus />
+    
+    </EditText>
+    <Button 
+        android:id="@+id/updateStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_status_button"
+        />
+
+</LinearLayout>
